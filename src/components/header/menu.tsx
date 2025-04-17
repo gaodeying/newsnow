@@ -65,7 +65,7 @@ export function Menu() {
                     </li>
                   ))}
               <ThemeToggle />
-              <li onClick={() => window.open(Homepage)} className="cursor-pointer [&_*]:cursor-pointer transition-all">
+              {/* <li onClick={() => window.open(Homepage)} className="cursor-pointer [&_*]:cursor-pointer transition-all">
                 <span className="i-ph:github-logo-duotone inline-block" />
                 <span>Star on Github </span>
               </li>
@@ -86,7 +86,7 @@ export function Menu() {
                     src="https://img.shields.io/github/forks/ourongxing/newsnow?logo=github"
                   />
                 </a>
-              </li>
+              </li> */}
             </ol>
           </motion.div>
         </div>
