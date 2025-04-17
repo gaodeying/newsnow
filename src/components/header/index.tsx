@@ -46,11 +46,9 @@ export function Header() {
         <Link to="/" className="flex gap-2 items-center">
           <div className="h-10 w-10 bg-cover" title="logo" style={{ backgroundImage: "url(/icon.svg)" }} />
           <span className="text-2xl font-brand flex items-center">
-            <p>东厂</p>
-            <p className="mt--1">
+            <span>东厂</span>
               <span className="color-primary-6">情</span>
               <span>报局</span>
-            </p>
           </span>
         </Link>
         {/* <a target="_blank" href={`${Homepage}/releases/tag/v${Version}`} className="btn text-sm ml-1 font-mono">
